@@ -47,3 +47,10 @@ leveldb-cli example.db delete key2
 # prints: key2 is absent
 leveldb-cli example.db get key2
 ```
+
+# Docker
+
+To run the latest docker image
+```
+docker run -it --rm ghcr.io/kay/leveldb-cli:main
+```
