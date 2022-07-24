@@ -15,9 +15,13 @@ struct CliArgs {
 
 #[derive(Debug, Subcommand)]
 enum Command {
+    /// Read a key
     Get { key: String },
+    /// Insert or update a key
     Put { key: String, value: String },
+    /// Delete a key
     Delete { key: String },
+    /// List all entries
     List,
 }
 
