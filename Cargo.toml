@@ -1,7 +1,13 @@
 [package]
 name = "leveldb-cli"
 version = "0.1.0"
+authors = ["https://github.com/kay"]
 edition = "2021"
+description = "Command line interface to leveldb"
+homepage = "https://github.com/kay/leveldb-cli"
+repository = "https://github.com/kay/leveldb-cli"
+keywords = ["leveldb", "cli"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 rusty-leveldb = "1.0"

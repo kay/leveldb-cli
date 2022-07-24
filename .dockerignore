@@ -5,7 +5,9 @@
 **/*.rs.bk
 
 # Directories that may commonly be created when testing this project
-*.db
+*.db/
 
 # Files if this project is opened in IDEA
 /.idea
+
+.git/
